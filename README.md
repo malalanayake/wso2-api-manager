@@ -20,4 +20,10 @@
 <br/><br/>--  $> docker commit cadaf620f6d5 sysensor/wso2-api-manager
 <br/><br/>--  $> docker push sysensor/wso2-api-manager
 
+### SSH to Container
+* docker exec -it <container_id> /bin/bash
+<br/><br/>--  $> docker exec -it ef851761c3e3 /bin/bash
+
+
+## API Manager Commands
 
